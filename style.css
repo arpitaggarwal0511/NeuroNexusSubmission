@@ -1,104 +1,105 @@
-    :root {
-      --primary-color: #673ab7;
-      --primary-hover: #5e35b1;
-      --background-color: #f8f9fa;
-      --form-background: #ffffff;
-      --input-background: #f1f3f4;
-      --border-radius: 12px;
-    }
-
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: var(--background-color);
-      font-family: 'Roboto', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-
-    .form-wrapper {
-      background-color: var(--form-background);
-      width: 100%;
-      max-width: 600px;
-      padding: 40px 30px;
-      border-radius: var(--border-radius);
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-    }
-
-    h1 {
-      text-align: center;
-      color: #333;
-      font-weight: 500;
-      margin-bottom: 30px;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-
-    label {
-      font-size: 14px;
-      font-weight: 500;
-      margin-bottom: 5px;
-      color: #555;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    select,
-    textarea {
-      padding: 12px 14px;
-      border: none;
-      border-radius: var(--border-radius);
-      background: var(--input-background);
-      font-size: 15px;
-      width: 100%;
-      box-sizing: border-box;
-      outline: none;
-    }
-
-    textarea {
-      resize: vertical;
-      min-height: 100px;
-    }
-
-    .gender-options {
-      display: flex;
-      gap: 15px;
-      flex-wrap: wrap;
-      margin-top: 5px;
-    }
-
-    .gender-options label {
-      font-weight: normal;
-      font-size: 14px;
-      color: #555;
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
-
-    input[type="radio"] {
-      accent-color: var(--primary-color);
-    }
-
-    .submit-btn {
-      padding: 14px;
-      background-color: var(--primary-color);
-      color: white;
-      font-size: 16px;
-      font-weight: 500;
-      border: none;
-      border-radius: var(--border-radius);
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-
-    .submit-btn:hover {
-      background-color: var(--primary-hover);
-    }
+:root {
+    --primary-color: #673ab7;
+    --primary-hover: #5e35b1;
+    --background-color: #f8f9fa;
+    --form-background: #ffffff;
+    --input-background: #f1f3f4;
+    --border-radius: 12px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .form-wrapper {
+    background-color: var(--form-background);
+    width: 100%;
+    max-width: 600px;
+    padding: 40px 30px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    padding: 12px 14px;
+    border: none;
+    border-radius: var(--border-radius);
+    background: var(--input-background);
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .gender-options {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+  
+  .gender-options label {
+    font-weight: normal;
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  input[type="radio"] {
+    accent-color: var(--primary-color);
+  }
+  
+  .submit-btn {
+    padding: 14px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: var(--primary-hover);
+  }
+  
